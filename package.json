@@ -1,0 +1,25 @@
+{
+  "name": "ehdev-server",
+  "version": "1.0.0",
+  "description": "ehdev dev-server plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macisi/ehdev-server.git"
+  },
+  "keywords": [
+    "ehdev"
+  ],
+  "author": "ryan.bian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macisi/ehdev-server/issues"
+  },
+  "homepage": "https://github.com/macisi/ehdev-server#readme",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  }
+}

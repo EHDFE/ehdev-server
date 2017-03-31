@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/macisi/ehdev-server#readme",
   "dependencies": {
-    "chalk": "^1.1.3"
+    "chalk": "^1.1.3",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2",
+    "ehdev-configs": "~1.0.0"
   }
 }

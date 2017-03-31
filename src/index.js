@@ -1,17 +1,19 @@
 const chalk = require('chalk');
 
 const pkg = require('../package.json');
+const server = require('./server');
 
 module.exports = {
 
-  command: 'init <type>',
+  command: 'server',
 
   description: pkg.description,
 
   options: [
-    [ '-c, --config', 'generate config only' ]
+    [ '-p, --port <port>', 'server port, default to `3000`', 3000 ]
   ],
 
-  action(type, command) {
+  action(options) {
+    server.run(options);
   },
 };

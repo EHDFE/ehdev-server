@@ -10,7 +10,8 @@ module.exports = {
   description: pkg.description,
 
   options: [
-    [ '-p, --port <port>', 'server port, default to `3000`', 3000 ]
+    [ '-p, --port <port>', '本地服务端口，默认 3000', 3000 ],
+    [ '-o, --open', '使用默认浏览器访问页面' ],
   ],
 
   action(options) {

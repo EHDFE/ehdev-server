@@ -3,6 +3,7 @@ const chalk = require('chalk');
 const webpack = require('webpack');
 const webpackDevServer = require('webpack-dev-server');
 const openBrowser = require('open');
+const ip = require('ip');
 
 const configer = require('./configer');
 const projectConfig = require(path.resolve(process.cwd(), './abc.json'));
@@ -16,6 +17,8 @@ exports.run = (options) => {
   const webpackConfig = configer(projectConfig.type, options);
 
   const compiler = webpack(webpackConfig);
+
+  const host = ip.address();
   
   const server = new webpackDevServer(compiler, {
 
@@ -25,15 +28,17 @@ exports.run = (options) => {
 
     hot: true,
 
+    host,
+
     stats: {
       colors: true
-    }
+    },
   });
 
-  server.listen(port, '127.0.0.1', function() {
-    console.log(chalk.green(`Starting server on http://localhost:${port}`));
+  server.listen(port, host, function() {
+    console.log(chalk.green(`Starting server on http://${host}:${port}`));
     if (open) {
-      openBrowser(`http://localhost:${port}`);
+      openBrowser(`http://${host}:${port}`);
     }
   });
 };

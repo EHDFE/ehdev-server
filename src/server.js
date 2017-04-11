@@ -28,14 +28,14 @@ exports.run = (options) => {
 
     hot: true,
 
-    host,
+    host: '0.0.0.0',
 
     stats: {
       colors: true
     },
   });
 
-  server.listen(port, host, function() {
+  server.listen(port, '0.0.0.0', function() {
     console.log(chalk.green(`Starting server on http://${host}:${port}`));
     if (open) {
       openBrowser(`http://${host}:${port}`);

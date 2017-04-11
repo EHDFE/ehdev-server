@@ -1,6 +1,6 @@
 {
   "name": "ehdev-server",
-  "version": "1.0.1",
+  "version": "1.0.2-beta0",
   "description": "ehdev dev-server plugin",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 {
   "name": "ehdev-server",
-  "version": "1.0.2-beta0",
+  "version": "1.0.2-beta1",
   "description": "ehdev dev-server plugin",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/macisi/ehdev-server#readme",
   "dependencies": {
     "chalk": "^1.1.3",
-    "ehdev-configs": "~1.0.0",
+    "ehdev-configs": "~1.0.0@beta",
     "ip": "^1.1.5",
     "open": "^0.0.5",
     "webpack": "^2.3.2",

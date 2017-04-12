@@ -10,6 +10,8 @@ const projectConfig = require(path.resolve(process.cwd(), './abc.json'));
 
 const DefaultProxyConfig = {};
 
+process.env.NODE_ENV = 'development';
+
 exports.run = (options) => {
 
   const { port, open } = options; 

@@ -1,5 +1,8 @@
 # HISTORY
 ---
+### v1.0.3
+---
+- `fix` "invalid host header" error
 
 ### v1.0.2
 ---

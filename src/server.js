@@ -29,7 +29,9 @@ exports.run = (options) => {
     proxy: Object.assign({}, DefaultProxyConfig, projectConfig.proxy),
 
     hot: true,
-
+    
+    disableHostCheck:true,
+    
     host: '0.0.0.0',
 
     stats: {

@@ -1,5 +1,10 @@
 # HISTORY
 ---
+
+### v1.0.4
+---
+- `feat` support ie8
+
 ### v1.0.3
 ---
 - `fix` "invalid host header" error

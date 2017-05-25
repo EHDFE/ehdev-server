@@ -37,7 +37,7 @@ exports.run = (options) => {
 
     hot: true,
     
-    disableHostCheck:true,
+    disableHostCheck: true,
     
     host: '0.0.0.0',
 

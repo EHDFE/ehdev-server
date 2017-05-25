@@ -25,9 +25,8 @@
     "ehdev-configs-legacy": "^1.0.0",
     "ip": "^1.1.5",
     "open": "^0.0.5",
-    "webpack": "^2.3.2",
-    "webpack-dev-server": "^2.4.4",
-    "webpack-ie8": "^2.1.0-beta.26",
+    "webpack": "2.3.2",
+    "webpack-dev-server": "2.4.4",
     "webpack-legacy": "^1.15.0"
   }
 }

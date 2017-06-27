@@ -4,7 +4,6 @@ const openBrowser = require('open');
 const chalk = require('chalk');
 const configer = require('./configer');
 
-
 module.exports = (options, projectConfig) => {
 
   const DefaultProxyConfig = {};

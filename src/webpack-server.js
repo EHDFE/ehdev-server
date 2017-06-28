@@ -35,6 +35,8 @@ module.exports = (options, projectConfig) => {
     
     host: '0.0.0.0',
 
+    historyApiFallback: projectConfig.historyApiFallback || false,
+
     stats: {
       colors: true,
       errorDetails: true,

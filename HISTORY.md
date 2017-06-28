@@ -1,6 +1,10 @@
 # HISTORY
 ---
 
+### v1.1.4
+---
+- `feat` support 'historyApiFallback'
+
 ### v1.1.0
 ---
 - `feat` new type 'legacy', which support none webpack project
